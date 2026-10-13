@@ -2,7 +2,6 @@
 //  PanePonUITestsLaunchTests.swift
 //  PanePonUITests
 //
-//  Created by 一居和毅 on 2025/09/23.
 //
 
 import XCTest
