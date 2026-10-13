@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79AD54132E81B018001FE70B /* PanePonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD54122E81B018001FE70B /* PanePonApp.swift */; };
+		79AD54152E81B018001FE70B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD54142E81B018001FE70B /* ContentView.swift */; };
+		79AD54172E81B01C001FE70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AD54162E81B01C001FE70B /* Assets.xcassets */; };
+		79AD541A2E81B01C001FE70B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AD54192E81B01C001FE70B /* Preview Assets.xcassets */; };
+		79AD54242E81B01C001FE70B /* PanePonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD54232E81B01C001FE70B /* PanePonTests.swift */; };
+		79AD542E2E81B01C001FE70B /* PanePonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD542D2E81B01C001FE70B /* PanePonUITests.swift */; };
+		79AD54302E81B01C001FE70B /* PanePonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AD542F2E81B01C001FE70B /* PanePonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79AD54202E81B01C001FE70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AD54072E81B018001FE70B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AD540E2E81B018001FE70B;
+			remoteInfo = PanePon;
+		};
+		79AD542A2E81B01C001FE70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79AD54072E81B018001FE70B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79AD540E2E81B018001FE70B;
+			remoteInfo = PanePon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79AD540F2E81B018001FE70B /* PanePon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanePon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD54122E81B018001FE70B /* PanePonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanePonApp.swift; sourceTree = "<group>"; };
+		79AD54142E81B018001FE70B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79AD54162E81B01C001FE70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79AD54192E81B01C001FE70B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79AD541F2E81B01C001FE70B /* PanePonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanePonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD54232E81B01C001FE70B /* PanePonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanePonTests.swift; sourceTree = "<group>"; };
+		79AD54292E81B01C001FE70B /* PanePonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanePonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79AD542D2E81B01C001FE70B /* PanePonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanePonUITests.swift; sourceTree = "<group>"; };
+		79AD542F2E81B01C001FE70B /* PanePonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanePonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79AD543C2E81B17D001FE70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79AD540C2E81B018001FE70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD541C2E81B01C001FE70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD54262E81B01C001FE70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79AD54062E81B018001FE70B = {
+			isa = PBXGroup;
+			children = (
+				79AD54112E81B018001FE70B /* PanePon */,
+				79AD54222E81B01C001FE70B /* PanePonTests */,
+				79AD542C2E81B01C001FE70B /* PanePonUITests */,
+				79AD54102E81B018001FE70B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79AD54102E81B018001FE70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79AD540F2E81B018001FE70B /* PanePon.app */,
+				79AD541F2E81B01C001FE70B /* PanePonTests.xctest */,
+				79AD54292E81B01C001FE70B /* PanePonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79AD54112E81B018001FE70B /* PanePon */ = {
+			isa = PBXGroup;
+			children = (
+				79AD543C2E81B17D001FE70B /* Info.plist */,
+				79AD54122E81B018001FE70B /* PanePonApp.swift */,
+				79AD54142E81B018001FE70B /* ContentView.swift */,
+				79AD54162E81B01C001FE70B /* Assets.xcassets */,
+				79AD54182E81B01C001FE70B /* Preview Content */,
+			);
+			path = PanePon;
+			sourceTree = "<group>";
+		};
+		79AD54182E81B01C001FE70B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79AD54192E81B01C001FE70B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79AD54222E81B01C001FE70B /* PanePonTests */ = {
+			isa = PBXGroup;
+			children = (
+				79AD54232E81B01C001FE70B /* PanePonTests.swift */,
+			);
+			path = PanePonTests;
+			sourceTree = "<group>";
+		};
+		79AD542C2E81B01C001FE70B /* PanePonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79AD542D2E81B01C001FE70B /* PanePonUITests.swift */,
+				79AD542F2E81B01C001FE70B /* PanePonUITestsLaunchTests.swift */,
+			);
+			path = PanePonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79AD540E2E81B018001FE70B /* PanePon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD54332E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePon" */;
+			buildPhases = (
+				79AD540B2E81B018001FE70B /* Sources */,
+				79AD540C2E81B018001FE70B /* Frameworks */,
+				79AD540D2E81B018001FE70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanePon;
+			productName = PanePon;
+			productReference = 79AD540F2E81B018001FE70B /* PanePon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79AD541E2E81B01C001FE70B /* PanePonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD54362E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePonTests" */;
+			buildPhases = (
+				79AD541B2E81B01C001FE70B /* Sources */,
+				79AD541C2E81B01C001FE70B /* Frameworks */,
+				79AD541D2E81B01C001FE70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AD54212E81B01C001FE70B /* PBXTargetDependency */,
+			);
+			name = PanePonTests;
+			productName = PanePonTests;
+			productReference = 79AD541F2E81B01C001FE70B /* PanePonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79AD54282E81B01C001FE70B /* PanePonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79AD54392E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePonUITests" */;
+			buildPhases = (
+				79AD54252E81B01C001FE70B /* Sources */,
+				79AD54262E81B01C001FE70B /* Frameworks */,
+				79AD54272E81B01C001FE70B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79AD542B2E81B01C001FE70B /* PBXTargetDependency */,
+			);
+			name = PanePonUITests;
+			productName = PanePonUITests;
+			productReference = 79AD54292E81B01C001FE70B /* PanePonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79AD54072E81B018001FE70B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					79AD540E2E81B018001FE70B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					79AD541E2E81B01C001FE70B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 79AD540E2E81B018001FE70B;
+					};
+					79AD54282E81B01C001FE70B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 79AD540E2E81B018001FE70B;
+					};
+				};
+			};
+			buildConfigurationList = 79AD540A2E81B018001FE70B /* Build configuration list for PBXProject "PanePon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79AD54062E81B018001FE70B;
+			productRefGroup = 79AD54102E81B018001FE70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79AD540E2E81B018001FE70B /* PanePon */,
+				79AD541E2E81B01C001FE70B /* PanePonTests */,
+				79AD54282E81B01C001FE70B /* PanePonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79AD540D2E81B018001FE70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD541A2E81B01C001FE70B /* Preview Assets.xcassets in Resources */,
+				79AD54172E81B01C001FE70B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD541D2E81B01C001FE70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD54272E81B01C001FE70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79AD540B2E81B018001FE70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD54152E81B018001FE70B /* ContentView.swift in Sources */,
+				79AD54132E81B018001FE70B /* PanePonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD541B2E81B01C001FE70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD54242E81B01C001FE70B /* PanePonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79AD54252E81B01C001FE70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79AD54302E81B01C001FE70B /* PanePonUITestsLaunchTests.swift in Sources */,
+				79AD542E2E81B01C001FE70B /* PanePonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79AD54212E81B01C001FE70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AD540E2E81B018001FE70B /* PanePon */;
+			targetProxy = 79AD54202E81B01C001FE70B /* PBXContainerItemProxy */;
+		};
+		79AD542B2E81B01C001FE70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79AD540E2E81B018001FE70B /* PanePon */;
+			targetProxy = 79AD542A2E81B01C001FE70B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79AD54312E81B01C001FE70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79AD54322E81B01C001FE70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79AD54342E81B01C001FE70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PanePon/Preview Content\"";
+				DEVELOPMENT_TEAM = H8G6965476;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PanePon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79AD54352E81B01C001FE70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PanePon/Preview Content\"";
+				DEVELOPMENT_TEAM = H8G6965476;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PanePon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79AD54372E81B01C001FE70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8G6965476;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanePon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PanePon";
+			};
+			name = Debug;
+		};
+		79AD54382E81B01C001FE70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8G6965476;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanePon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PanePon";
+			};
+			name = Release;
+		};
+		79AD543A2E81B01C001FE70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8G6965476;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanePon;
+			};
+			name = Debug;
+		};
+		79AD543B2E81B01C001FE70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8G6965476;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KazukiIchii.PanePonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PanePon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79AD540A2E81B018001FE70B /* Build configuration list for PBXProject "PanePon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD54312E81B01C001FE70B /* Debug */,
+				79AD54322E81B01C001FE70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AD54332E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD54342E81B01C001FE70B /* Debug */,
+				79AD54352E81B01C001FE70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AD54362E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD54372E81B01C001FE70B /* Debug */,
+				79AD54382E81B01C001FE70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79AD54392E81B01C001FE70B /* Build configuration list for PBXNativeTarget "PanePonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79AD543A2E81B01C001FE70B /* Debug */,
+				79AD543B2E81B01C001FE70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79AD54072E81B018001FE70B /* Project object */;
+}
